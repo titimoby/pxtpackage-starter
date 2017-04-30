@@ -1,0 +1,7 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="device_forever" id="NaT.Q:K~oqeb4|l4+AUE" x="70" y="103">
+    <statement name="HANDLER">
+      <block type="blinky_blinkOne" id="PXLCYU:d!nC1*t{zj~#*"></block>
+    </statement>
+  </block>
+</xml>

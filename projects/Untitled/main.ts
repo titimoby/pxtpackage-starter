@@ -1,0 +1,3 @@
+basic.forever(() => {
+    blinky.blinkOne()
+})
