@@ -3,7 +3,7 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "blinky": "../pxt-blinky"
+        "blinky": "file:../pxt-blinky"
     },
     "description": "",
     "files": [

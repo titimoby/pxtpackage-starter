@@ -8,21 +8,12 @@ namespace blinky {
      * 
      */    
     //% block
-    export function blinkCustom(): void {
-        basic.showLeds(`
-        # . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `);
+    export function blinkIt(): void {
+         if (led.point(0, 0)) {
+            led.unplot(0, 0);
+        } else {
+            led.plot(0, 0);
+        }
         basic.pause(200);
-        basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `);
     }
 }
