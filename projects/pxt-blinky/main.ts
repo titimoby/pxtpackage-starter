@@ -3,8 +3,12 @@
  */
 //% weight=100 color=#0f33fb icon=""
 namespace blinky {
+    /**
+     * Blink upper left led
+     * 
+     */    
     //% block
-    export function blinkOne(): void {
+    export function blinkCustom(): void {
         basic.showLeds(`
         # . . . .
         . . . . .

@@ -1,25 +1,15 @@
-/**
- * Custom blocks to Blink the world
- */
-//% weight=100 color=#553344 icon=""
-namespace blinky {
-    //% block
-    export function blinkOne(): void {
-        basic.showLeds(`
-        # . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `);
-        basic.pause(200);
-        basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `);
-    }
+{
+    "name": "Blinker",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "blinky": "../pxt-blinky"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "custom.ts"
+    ]
 }
-
